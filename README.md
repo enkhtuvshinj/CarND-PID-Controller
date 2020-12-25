@@ -51,7 +51,7 @@ Basically, vehicles have restricted lateral movement. These limitations can be d
 
 <img src="img/velocity_vs_angle.png"/>
 
-From above figure it can be concluded that a velocity would be decreased when it reaches beyond blue line. Current steering angle and speed from the simulator is fed to the equation in order to define the maximum speed for the given steering angle. 
+From above figure it could be concluded that a velocity would be decreased when it reaches beyond blue line. Current steering angle and speed from the simulator is fed to the equation in order to define the maximum speed for the given steering angle. 
 If the current speed is higher than the maximum speed, throttle is reduced.
 
 ## Conclusion
