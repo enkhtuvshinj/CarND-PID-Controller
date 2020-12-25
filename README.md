@@ -8,13 +8,13 @@ In this project, a PID controller in C++ has been implemented to maneuver the ve
 #### Inputs:
 The simulator sends the following to the PID controller.
 * Cross Track Error (CTE)
-* Velocity (mph)
-* Current steering angle (radian)
+* Current velocity (mph)
+* Current steering angle (degree)
 
 #### Outputs:
 A PID Controller computes the appropriate steering angle based on above inputs and feed it to the simulation.
 
-* Steering angle (radian)
+* Steering angle (rad)
 
 ---
 ## Dependencies & running code
